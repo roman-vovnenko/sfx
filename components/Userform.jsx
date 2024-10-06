@@ -1,7 +1,7 @@
 "use client"; 
 import { useState } from 'react';
 
-export default function UserForm() {
+export default function Userform() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(false);
